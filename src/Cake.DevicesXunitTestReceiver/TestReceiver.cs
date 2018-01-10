@@ -61,6 +61,7 @@ namespace Cake.DevicesXunitTestReceiver
 
                                 var result = lastDataReceived.Contains("Failed: 0");
                                 testsPassedCompletionSource.SetResult(result);
+                                return;
                             }
                         }
                     }

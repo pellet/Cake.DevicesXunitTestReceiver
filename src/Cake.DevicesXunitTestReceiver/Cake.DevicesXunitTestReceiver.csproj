@@ -14,7 +14,7 @@
     <PackageProjectUrl>https://github.com/pellet/Cake.DevicesXunitTestReceiver</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/cake-build/graphics/master/png/cake-medium.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/pellet/Cake.DevicesXunitTestReceiver/master/LICENSE.md</PackageLicenseUrl>
-    <Version>1.0</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2|AnyCPU'">
     <OutputPath>bin\Debug</OutputPath>
