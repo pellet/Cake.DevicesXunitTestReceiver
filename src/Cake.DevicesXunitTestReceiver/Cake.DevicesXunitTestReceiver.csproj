@@ -1,6 +1,6 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
@@ -12,7 +12,7 @@
     <Authors>Benjamin Pettit</Authors>
     <Owners>pellet</Owners>
     <PackageProjectUrl>https://github.com/pellet/Cake.DevicesXunitTestReceiver</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/cake-build/graphics/master/png/cake-medium.png</PackageIconUrl>
+    <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/pellet/Cake.DevicesXunitTestReceiver/master/LICENSE.md</PackageLicenseUrl>
     <Version>1.0.1</Version>
   </PropertyGroup>
@@ -32,8 +32,8 @@
     <Compile Remove="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Cake.Core" Version="0.22.0" />
-    <PackageReference Include="Cake.Common" Version="0.22.0" />
+    <PackageReference Include="Cake.Core" Version="0.33.0" PrivateAssets="All" />
+    <PackageReference Include="Cake.Common" Version="0.33.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
