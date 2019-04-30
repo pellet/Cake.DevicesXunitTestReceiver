@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -12,7 +12,7 @@
     <Authors>Benjamin Pettit</Authors>
     <Owners>pellet</Owners>
     <PackageProjectUrl>https://github.com/pellet/Cake.DevicesXunitTestReceiver</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/cake-build/graphics/master/png/cake-medium.png</PackageIconUrl>
+    <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/pellet/Cake.DevicesXunitTestReceiver/master/LICENSE.md</PackageLicenseUrl>
     <Version>1.0.1</Version>
   </PropertyGroup>
